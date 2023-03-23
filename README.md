@@ -6,6 +6,9 @@ In this project, we'll create AWS resources i.e., VPC,Subnet,Security Groups,Int
 
 The objective of this project is to dynamically create resources in a declarative way and simulate autoscaling in response to traffic/resource consumption(CPU Utiliation>40%).
 
+
+![Architecture Diagram](https://github.com/bhikeshkhute/Provisioning-AWS-Infrastructure-Autoscaling-using-Terraform/blob/master/Architecture_Diagram.jpg)
+
 ## Want to give a try on your system? Follow the steps below.
 
 We have three files and it is described as:
