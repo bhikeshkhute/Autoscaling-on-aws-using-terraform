@@ -91,5 +91,8 @@ Once everything is deployed. You can destroy everything in one go using the foll
 ```
 terraform destroy -auto-approve
 ```
+----
 
 For any recommendation, you may connect me on - bhikesh.khute@outlook.com
+
+---
