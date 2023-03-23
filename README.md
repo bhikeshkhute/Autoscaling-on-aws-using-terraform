@@ -23,49 +23,49 @@ Steps:
 
 3. Now,we'll install terraform,awscli and git as a prerequisite. 
 
-```
-sudo apt update && sudo apt install terraform awscli git -y 
-```
+  ```
+  sudo apt update && sudo apt install terraform awscli git -y 
+  ```
 4. Once done, run the following command:
 
-``` 
-awsconfigure 
-```
-AWS Access Key ID - <paste your access key which was copied earlier>
+  ``` 
+  awsconfigure 
+  ```
+  AWS Access Key ID - <paste your access key which was copied earlier>
   
-AWS Secret Access Key - <paste your secret key>
+  AWS Secret Access Key - <paste your secret key>
   
-Default region name - ap-south-1
+  Default region name - ap-south-1
   
-Default output format - json
+  Default output format - json
 
 5. Now, clone the project using the following command 
 
-``` 
-git clone https://github.com/bhikeshkhute/Provisioning-AWS-Infrastructure-Autoscaling-using-Terraform.git
-```
+  ``` 
+  git clone https://github.com/bhikeshkhute/Provisioning-AWS-Infrastructure-Autoscaling-using-Terraform.git
+  ```
   
 6. Now go inside the folder and run the command:
 
 Initializing Terraform files
-```
-terraform init
-```
+  ```
+  terraform init
+  ```
 
 Validating the terraform files
-```
-terraform validate 
-```
+  ```
+  terraform validate 
+  ```
   
 Let's See the plan what will be created
-```
-terraform plan
-```
+  ```
+  terraform plan
+  ```
 
 Once plan is ok, we'll create the same auto approved
-``` 
-terraform apply -auto-approve 
-```
+  ``` 
+  terraform apply -auto-approve 
+  ```
 
 Wait for some time to create all the resource. You can also visit the AWS console to see all the resources. 
 
