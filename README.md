@@ -31,9 +31,9 @@ Steps:
     ``` 
     awsconfigure 
     ```
-      AWS Access Key ID - <paste your access key which was copied earlier>
+      AWS Access Key ID - !<paste your access key which was copied earlier in step 2>!
 
-      AWS Secret Access Key - <paste your secret key>
+      AWS Secret Access Key - !<paste your secret key created in step 2>!
 
       Default region name - ap-south-1
 
@@ -47,22 +47,22 @@ Steps:
 
 6. Now go inside the folder and run the command:
 
-Initializing Terraform files
+    Initializing Terraform files
     ```
     terraform init
     ```
 
-Validating the terraform files
+    Validating the terraform files
     ```
     terraform validate 
     ```
   
-Let's See the plan what will be created
+    Let's See the plan what will be created
     ```
     terraform plan
     ```
 
-Once plan is ok, we'll create the same auto approved
+    Once plan is ok, we'll create the same auto approved
     ``` 
     terraform apply -auto-approve 
     ```
