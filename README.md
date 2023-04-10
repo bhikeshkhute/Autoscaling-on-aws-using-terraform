@@ -45,7 +45,7 @@ Steps:
 5. Now, clone the project using the following command 
 
     ``` 
-    git clone https://github.com/bhikeshkhute/Provisioning-AWS-Infrastructure-Autoscaling-using-Terraform.git
+    git clone https://github.com/bhikeshkhute/Autoscaling-on-aws-using-terraform.git
     ```
 
 6. Now go inside the folder and run the command:
